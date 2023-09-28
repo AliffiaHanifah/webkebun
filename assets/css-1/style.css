@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url("../font/Poppins-Medium.ttf");
+  }
+
+body {
+    font-family: 'Poppins-Medium', sans-serif;
+   
+}
+
+.navbar-brand {
+    padding-left: 24px;
+    margin: 0px;
+}
+
+nav .navbar-nav li a {
+    color: black;
+    font-size: 16px;
+}
+
+nav .navbar-nav li a:hover {
+    color: green;
+}
+
+.ayam {
+    width: 500px;
+    height: 300px;
+    z-index: -1;
+    top: 0px;
+    /*left nya blm otomatis msh berubah sesuai width layah */
+    left: 780px;
+}
