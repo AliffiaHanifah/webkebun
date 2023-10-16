@@ -28,7 +28,7 @@ body {
 nav.navbar {
     padding-left: 35px;
     padding-right: 27px;
-    background-color: #016A70;
+    background-color: #FFFF;
 }
 
 .navbar-brand {
@@ -141,5 +141,9 @@ section.menu-tambah {
 
 a .judul{
     color: #000000 !important;
+}
+
+.colmenu .icons .judul:hover {
+    color: #016A70 !important;
 }
 /* :::::::::::::: END SECTION MENU UTAMA ::::::::::::::*/
